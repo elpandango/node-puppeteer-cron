@@ -1,0 +1,26 @@
+{
+  "name": "phantomjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11",
+    "phantomjs": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.16",
+    "puppeteer": "^1.14.0",
+    "slimerjs": "^1.0.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "node-cron": "^2.0.3",
+    "phantom": "^6.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
